@@ -18,9 +18,15 @@ Extracted: `ELDEN RING\Game\msg\{$LANG}\{$TYPE}.msgbnd.dcx`
 
 Translated: `elden-ring-data\msg\{$LANG}\{$TYPE}.msgbnd.dcx.json`
 
-### Icons
+### Images
 
-Refer to the `elden-ring-media` repo
+Includes:
+
+- menu icons
+- loading screen images
+- tutorial images
+
+Refer to the separate `elden-ring-media` repo
 
 ### Other data
 
@@ -29,7 +35,8 @@ Coming soon
 ## How this data was generated
 
 1. Used UXM_2.4_ER to extract game files
-2. Used SoulsFormats to load, then export to JSON, using C# code similar to below
+2. Used SoulsFormats to load
+3. Wrote C# code to export to JSON
 
 ## Thanks
 
